@@ -1,0 +1,96 @@
+{% extends "template.html" %}
+    {% block contenido %}    
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <h1 class="text-center">RUNNERS</h1>
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>NIKE</h3>
+          <img src="{{ url_for('static', filename='images/runner2.jpg') }}" alt="" class="todoAncho">
+          <p>Nike Air Zoom | $3700</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>NEW BALANCE</h3>
+          <img src="{{ url_for('static', filename='images/runner6.jpg') }}" alt="" class="todoAncho">
+          <p>New Balance Fresh Foam | $4500</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>SOLOMONS</h3>
+          <img src="{{ url_for('static', filename='images/runner5.jpg') }}" alt="" class="todoAncho">
+          <p>Solomons Renew | $3000</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h1 class="text-center">FUTBOL</h1>
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>NIKE</h3>
+          <img src="{{ url_for('static', filename='images/botines2.jpg') }}" alt="" class="todoAncho">
+          <p>Nike Fhantom | $5200</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>NIKE</h3>
+          <img src="{{ url_for('static', filename='images/botines3.jpg') }}" alt="" class="todoAncho">
+          <p>Nike Mercurial | $3700</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>ADIDAS</h3>
+          <img src="{{ url_for('static', filename='images/botines4.jpg') }}" alt="" class="todoAncho">
+          <p>Nike Predator | $4300</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h1 class="text-center">BASKETBALL</h1>
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>REEBOK</h3>
+          <img src="{{ url_for('static', filename='images/basket2.jpg') }}" alt="" class="todoAncho">
+          <p>Reebok Under Amour | $4700</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>REEBOK</h3>
+          <img src="{{ url_for('static', filename='images/basket6.jpg') }}" alt="" class="todoAncho">
+          <p>Reebok Cloud | $4200</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>FILA</h3>
+          <img src="{{ url_for('static', filename='images/basket4.jpg') }}" alt="" class="todoAncho">
+          <p>Fila F-100 | $4800</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class="text-center">Sociales</h2>
+    <hr class="navbar">
+    <br>
+    <br>
+    {% endblock %}

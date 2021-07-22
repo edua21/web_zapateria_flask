@@ -1,0 +1,31 @@
+.banner{
+    background-color: rgb(235, 10, 10);
+    font-size: 50px;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+.home{
+    font-weight: bold;
+    background-color: burlywood;
+}
+
+
+
+.todoAncho{
+    width: 100%;
+}
+
+.footer{
+    background-color: #202020;
+}
+
+/* Ejemplo para pizar los efectos del framework
+p {
+    background-color:green !important;
+}*/
+.fondo{
+    background-color: rgb(119, 109, 106);
+}

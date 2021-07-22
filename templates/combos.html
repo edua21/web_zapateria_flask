@@ -1,0 +1,40 @@
+{% extends "template.html" %}
+    {% block contenido %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <h1 class="text-center">COMBOS!!</h1>
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Combo1</h3>
+          <img src="{{ url_for('static', filename='images/combo1.jpg') }}" alt="" class="todoAncho">
+          <p>Botines + Botinera + Futbol | $7000</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>Combo2</h3>
+          <img src="{{ url_for('static', filename='images/combo2.jpg') }}" alt="" class="todoAncho">
+          <p>Botines Nike + Botinera | $6500</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+        <div class="col-md-4">
+          <h3>Combo3</h3>
+          <img src="{{ url_for('static', filename='images/combo3.jpg') }}" alt="" class="todoAncho">
+          <p>Bolsos + Botinera | $4000</p>
+          <a href="{{ url_for('cE') }}" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>  
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    {% endblock %}
